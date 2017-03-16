@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Brewery Locator</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <!--  CSS path -->
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div class="container">
+
+    <!-- SIDE NAV BAR -->
+    <ul id="slide-out" class="side-nav fixed">
+
+      <li class="brewery-listings"><a href="#!">Brewery</a></li>
+      <li class="beer-listings"><a href="#!">Beer</a></li>
+      <li class="ride-requests"><a href="#!">Backup Driver</a></li>
+      <img src="assets/images/beer-36869_640.png" alt="">
+    </ul>
+
+    <!-- FORM FIELD -->
+    <form class="col s12">
+
+      <div class="row">
+        <div class="input-field col s4">
+          <input id="city_name" type="text" class="validate" placeholder="search">
+          <label for="city_name"></label>
+          <a class="waves-effect waves-light btn-large">Find</a>
+        </div>
+
+        <div class="input-field col s12">
+          <select id="cityOrZip">
+            <option value="" disabled selected>Choose your option</option>
+            <option value="locality">City</option>
+            <option value="postalCode">Zip Code</option>
+          </select>
+        </div>
+
+            <!-- DROPDOWN FEATURE-->
+        <!-- <div class="input-field col s4">
+          <a class="dropdown-button btn" href="#"             data-activates="dropdown1">Choose</a>
+
+            <!-- Dropdown Structure -->
+          <!-- <ul id="dropdown1" class="dropdown-content">
+            <li class="city_selected"><a href="#!"> city</a></li>
+            <li class="divider"></li>
+            <li class="zip_selected"><a href="#!"> zip</a></li>
+          </ul>
+        </div> -->
+      </div>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons"></i></a>
+    <ul class="collection">
+
+    </ul>
+
+  </form>
+  </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Compiled Jquery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/js/materialize.min.js"></script>
+    <!-- Javascript Path -->
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

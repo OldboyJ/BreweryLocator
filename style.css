@@ -1,0 +1,44 @@
+body {
+  background-color: #C63D0F;
+  margin-left: 330px;
+}
+
+img {
+  height: 175px;
+}
+
+.container {
+  height: 100vh;
+}
+
+.side-nav a{
+  background-color: #3B3738;
+  color: white;
+
+}
+
+.waves-effect {
+  background-color: #7E8F7C;
+}
+
+.collection .collection-item {
+  background-color: #092e40;
+}
+
+ul.collection {
+
+}
+
+li.collection-item {
+  height: 130px;
+}
+
+.breweries {
+  border: 1px solid black;
+  padding: 20px;
+  background-color: black;
+}
+
+.row .col.s12 {
+  width: 55%;
+}
