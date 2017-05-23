@@ -5,9 +5,11 @@ $(document).ready(function(){
 
 
 
+
+
   $('.waves-effect').click(function(){
 
-    $("ul.collection").empty();
+    $("ul.collection").empty().html('<div>Search Results</div>');
 
     var search_string;
     var inputVal;
@@ -39,7 +41,7 @@ $(document).ready(function(){
 
 
           $('ul.collection').append(`
-            <a id="shop${i+1}" href="${placeUrl}"><div class="breweries"><span>${placeName}</span></div></a>
+            <a id="shop${i+1}" href="${placeUrl}" target="_blank"><div class="breweries"><span>${placeName}</span></div></a>
             `);
 
 

@@ -7,6 +7,8 @@
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
     <!--  CSS path -->
     <link rel="stylesheet" href="style.css">
 
@@ -15,24 +17,21 @@
     <div class="container">
 
     <!-- SIDE NAV BAR -->
-    <ul id="slide-out" class="side-nav fixed">
+    <ul id="slide-out" class="side-nav fixed ">
 
       <li class="brewery-listings"><a href="#!">Brewery</a></li>
       <li class="beer-listings"><a href="#!">Beer</a></li>
-      <li class="ride-requests"><a href="#!">Backup Driver</a></li>
+      <li class="ride-requests"><a href="https://www.uber.com/cities/phoenix/">Backup Driver</a></li>
+
       <img src="assets/images/beer-36869_640.png" alt="">
     </ul>
+
+
 
     <!-- FORM FIELD -->
     <form class="col s12">
 
       <div class="row">
-        <div class="input-field col s4">
-          <input id="city_name" type="text" class="validate" placeholder="search">
-          <label for="city_name"></label>
-          <a class="waves-effect waves-light btn-large">Find</a>
-        </div>
-
         <div class="input-field col s12">
           <select id="cityOrZip">
             <option value="" disabled selected>Choose your option</option>
@@ -40,6 +39,12 @@
             <option value="postalCode">Zip Code</option>
           </select>
         </div>
+        <div class="input-field col s4">
+          <input id="city_name" type="text" class="validate" placeholder="search">
+          <label for="city_name"></label>
+          <a class="waves-effect waves-light btn-large"><i class="material-icons">search</i></a>
+        </div>
+
 
             <!-- DROPDOWN FEATURE-->
         <!-- <div class="input-field col s4">

@@ -34,9 +34,10 @@ li.collection-item {
 }
 
 .breweries {
-  border: 1px solid black;
+  border: 1px solid #3B3738;
   padding: 20px;
-  background-color: black;
+  background-color: white;
+  color: #092e40;
 }
 
 .row .col.s12 {
