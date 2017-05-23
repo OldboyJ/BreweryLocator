@@ -17,11 +17,11 @@ $(document).ready(function(){
 
     if($('#cityOrZip').val()==="locality"){
       inputVal = $('#city_name').val();
-      search_string = 'http://api.brewerydb.com/v2/locations?key=e555899269344b934b5c42241786293f&locality='+inputVal;
+      search_string = 'https://api.brewerydb.com/v2/locations?key=e555899269344b934b5c42241786293f&locality='+inputVal;
     }
     else if($('#cityOrZip').val( )==="postalCode"){
       inputVal = $('#city_name').val();
-      search_string = 'http://api.brewerydb.com/v2/locations?key=e555899269344b934b5c42241786293f&postalCode='+inputVal;
+      search_string = 'https://api.brewerydb.com/v2/locations?key=e555899269344b934b5c42241786293f&postalCode='+inputVal;
     }
 
 
